@@ -5,6 +5,10 @@
 }
 
 @media (max-width:800px) {
+    .cor-animada{
+        background-color: #170440;
+        background-image: none;
+    }
     
     .menu{
         display: none;
@@ -98,6 +102,25 @@
     }
 }
 
+@media (max-width:680px) {
+
+    .sobre-img img{
+        max-width:250px;
+    }
+
+    .box-contatos {
+        max-width: 280px;
+    }
+
+    .box-contatos form input{
+        max-width: 250px;
+    }
+
+    .button-contatos{
+        width: 120px;
+    }
+}
+
 @media (max-width:550px ) {
 
     
@@ -122,24 +145,5 @@
 @media (max-width: 476px){
     body{
         overflow-x: hidden;
-    }
-}
-
-@media (max-width:320px) {
-
-    .sobre-img img{
-        max-width:250px;
-    }
-
-    .box-contatos {
-        max-width: 280px;
-    }
-
-    .box-contatos form input{
-        max-width: 250px;
-    }
-
-    .button-contatos{
-        width: 120px;
     }
 }
