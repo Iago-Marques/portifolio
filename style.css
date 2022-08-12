@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    min-height: 100%;
+    font-family: 'K2D', sans-serif;
+    font-weight: 300;
+    width: 100vw;
+    
+}
+
+.span-sobremim, .span-habilidades, .span-projetos, .span-contatos{ /* COR NAS PRIMEIRAS LETRAS DOS TITULOS */
+
+    font-weight: 400;
+    color:#6015da;
+}
+
+.paralax{ /* IMAGEM ANIMADA DO MENU */
+    background-image: url(imagens/fundo\ header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 65rem;
+   
+}
+
+.header-menu{ /* MENU */
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 25px;
+}
+
+.img-text{ /*  ICONE E TEXTO DO MENU */
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.img-text img{ /* ICONE DO MENU */
+    width: 44px;
+    border-radius: 25px;
+    box-shadow: 1px solid ;
+}
+
+.img-text h4{ /* ICONE E TEXTO DO MENU */
+    color: white;
+    font-weight: 300;
+}
+
+.menu{ /* BOX MENU */
+    font-weight: 300;
+}
+
+.lista-menu{ /* TEXTO DO MENU */
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 25px;
+}
+
+li{
+    list-style: none
+}
+
+.lista-menu a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+.hr-menu{
+    opacity: 15%;
+}
+
+.nav-button{
+    border:0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #170440;
+    margin: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-button i{
+    color:#fff;
+}
+
+.overlay{ /* MENU MOBILE */
+    display: none;
+}
+
+
+.header-text-central{ /* IMAGEM E  TEXTO CENTRAL */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 80px
+
+}
+
+.header-text-central img{ /* IMAGEM CENTRAL DO HEADER */
+    max-width: 250px;
+    border-radius: 100%;
+    border: solid 2px #32047c;
+    
+}
+
+.header-text-central h1{ /* IAGO MARQUES  VIEIRA */
+    font-size: 50px;
+    font-weight: 300;
+    margin: 10px 0px 10px 0px;
+}
+
+.header-text-central h3{ /* DESENVOLVEDOR FRONT END */
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.header-text-central span{ /* COR DAS LETRAS D E F */
+    color: #5e12d8;
+}
+
+.header-text-central .span1:hover, .header-text-central .span2:hover{ /* MUDANÇA DE CORES NAS LETRAS D E F */
+
+    transition-duration: 1s;
+    color: #8e4df7;
+    cursor: pointer;
+}
+
+.header-text-central button{ /* BAIXAR CURRICULO */
+    font-family:'K2D', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 15px;
+    width: 180px;
+    border-radius: 15px;
+    border: none;
+    background-image: linear-gradient(to top, #420c88, #6119FA);
+    color: white;
+}
+
+.header-text-central button:hover{ /* ANIMAÇÃO NO BOTÃO  */
+    background-image: linear-gradient(to top, #230647, #3a0f97);
+    cursor: pointer;
+    transition-duration: 0.9s;
+    font-size: 14px ;
+}
+
+.cor-animada{
+    background-image: linear-gradient(125deg,#250147,#033942,#55006e);
+    background-size: 400%;
+    animation: bganimation 15s infinite;
+}
+
+@keyframes bganimation{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%
+    }
+}
+
+.sobre-mim{ /* BOX SOBRE MIM */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sobre-text{ /* TEXTO  SOBRE MIM */
+    width: 600px;
+    color: white;
+    padding: 10px;
+}
+
+.sobre-text hr{
+    background-color: #6015da;
+    padding: 1.5px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.sobre-text h1{
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+
+.sobre-text .strong-sobre{
+    font-weight: 400;
+    color:#6015da;
+}
+
+
+
+.sobre-text p .strong-sobre-text{
+    font-weight: 500;
+}
+
+.redes-sociais{ /* REDES SOCIAIS */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.redes-sociais img{ /* IMAGENS REDES SOCIAIS */
+    width: 50px;
+    margin-top: 50px;
+}
+
+.sobre-img img{
+    max-width: 551px;
+    padding: 55px;
+    
+    
+}
+
+.habilidades{ 
+    color:white;
+
+}
+
+.habilidades h1{
+    font-size: 40px;
+    font-weight: 300;
+    padding: 35px;
+    text-align: center;
+}
+
+
+.boxs-habilidades{ /* BOX HABILIDADES  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.box-html, .box-css, .box-js, .box-github, .box-git{
+    background-color: #2a026b;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    box-shadow: 1px 15px 15px 5px rgba(0, 0, 0, 0.432);
+}
+
+.box-html span, .box-css span, .box-js span, .box-github span, .box-git span{ /* DESCRIÇÃO DAS TECNOLOGIAS */
+
+    max-width: 260px;
+}
+
+.box-html img, .box-css img, .box-js img, .box-github img, .box-git img{ /* ICONES DAS TECNOLOGIAS */
+
+    width: 58px;
+    padding-bottom: 15px;
+}
+
+.strong-boxs-habilidades{ /*STRONG NOS TITULOS DAS TECNOLOGIAS */
+    font-weight: 550;
+}
+
+.projetos{ /* CAIXAS DE PROJETOS */
+    background-color: #09090A;
+    padding-bottom: 70px;
+}
+
+.box-projetos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proj1, .proj2, .proj3, .proj4{ /* CONFIGURAÇÃO DAS CAIXAS DE PROJETOS */
+    background-color: white;
+    max-width: 280px;
+    border-radius: 10px;
+}
+
+.proj1 .img-proj, .proj2 .img-proj, .proj3 .img-proj, .proj4 .img-proj{ /* CONFIGURAÇÃO DAS IMAGENS DOS PROJETOS */
+
+    max-width: 280px;
+    border-radius: 8px 8px 0 0;
+}
+
+.projetos h1{
+    font-size: 40px;
+    font-weight: 300;
+    padding: 35px;
+    text-align: center;
+    color: white;  
+}
+
+.projetos h2{
+    font-size: 20px;
+    padding: 5px;
+}
+
+.projetos h3{
+    font-size: 14px;
+}
+
+.projetos p{
+    font-weight: 400;
+    padding-left: 5px;
+}
+
+.boxs-links{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    padding: 20px;
+}
+
+.boxs-links .repositorio, .boxs-links .vizualizar{ /* CONFIGURAÇÃO DOS BOTÕES DOS PROJETOS */
+
+    display: flex;
+    gap: 10px;
+    justify-items:center;
+    align-items: center;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    border: solid 2px #3D009D;
+    color: black;
+}
+
+.boxs-links .repositorio:hover, .boxs-links .vizualizar:hover{
+    border: solid 2px #000000;
+    background-color: #7944ec;
+    cursor:pointer;
+    transition: 0.8s;
+}
+
+.contatos{
+    background-color: #09090A;
+    display: flex;
+    justify-content:space-around;
+    gap: 35px;
+    padding-bottom: 70px;
+}
+
+.contatos img{
+    width: 551px;
+    padding: 55px;
+}
+
+.contatos h1{
+    font-size: 40px;
+    font-weight: 300;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.box-contatos{
+    height: 400px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 160px;
+   
+}
+
+.caixa-h1{
+    width: 100%;
+    background-color:#230647;
+    border-radius: 20px 20px 0 0;
+}
+
+.box-contatos{
+    display: flex;
+    align-items: center;
+}
+
+.box-contatos form{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-contatos form input{
+    padding: 10px;
+    width: 500px;
+    margin-top: 5px;
+}
+
+.box-contatos form .email-comentario{
+    height: 85px;
+}
+
+.button-contatos{
+    width: 200px;
+    margin-top: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    border: solid 2px #3D009D;
+    color: black;
+    font-size: 14px;
+}
+
+.button-contatos:hover{
+    border: solid 2px #000000;
+    background-color: #7944ec;
+    cursor:pointer;
+    transition: 0.8s;
+}
+
+footer{
+    text-align: center;
+    font-weight: 300;
+    padding: 10px;
+    background-color: #230647;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

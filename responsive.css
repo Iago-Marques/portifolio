@@ -1,0 +1,147 @@
+@media(max-width: 1300px) {
+    .contatos img{
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+    
+    .menu{
+        display: none;
+    }
+
+    .header-menu h4, .header-menu img{
+        display: none;
+    }
+    
+    .nav-button{
+        display: block;
+    }
+
+    .overlay{
+        display: block;
+        height: 100%;
+        background-color: #0c0122ec;
+        z-index: 9;
+        position: fixed;
+        left: 0;
+        top: 0;
+        overflow-x: hidden;
+        transition: ease-in 0.5s;
+    }
+
+
+    .overlay-content{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a{
+        padding: 8px;
+        text-decoration: none;
+        color: #818181;
+        display: block;
+        font-family: 'K2D', sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        transition: 0.3s;
+    }
+
+    .overlay a:hover, .overlay a:focus{
+        color: #fff;
+    }
+
+    .overlay .closebtn{
+        position: absolute;
+        top: 25px;
+        right:45px;
+        font-size: 60px;
+    }
+
+    .paralax{
+        height: 50rem;
+    }
+
+    .header-text-central img{
+        max-width: 150px;
+    }
+
+    .header-text-central h1, .header-text-centraç h3{
+        font-size: 30px;
+    }
+    
+    .header-text-central h3{
+        font-size: 20px;;
+    }
+
+    .sobre-mim{
+        padding-top: 25px;
+    }
+
+    .sobre-mim h1, .habilidades h1, .projetos h1{
+        font-size: 30px;
+    }
+
+    .redes-sociais img{
+        max-width: 35px;
+    }
+
+    .contatos img{
+        display: none;
+    }
+
+    .contatos h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:550px ) {
+
+    body{
+        font-size: ;
+    }
+
+    .sobre-img img{
+        max-width:350px;
+    }
+
+    .projetos h2{
+        font-size: 18px;
+    }
+
+    .box-contatos {
+        max-width: 380px;
+    }
+
+    .box-contatos form input{
+        max-width: 330px;
+    }
+}
+
+@media (max-width: 476px){
+    body{
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width:320px) {
+
+    .sobre-img img{
+        max-width:250px;
+    }
+
+    .box-contatos {
+        max-width: 280px;
+    }
+
+    .box-contatos form input{
+        max-width: 250px;
+    }
+
+    .button-contatos{
+        width: 120px;
+    }
+}
