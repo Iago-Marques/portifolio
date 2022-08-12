@@ -296,13 +296,14 @@ li{
 
 .proj1, .proj2, .proj3, .proj4{ /* CONFIGURAÇÃO DAS CAIXAS DE PROJETOS */
     background-color: white;
-    max-width: 280px;
+    width: 280px;
+    max-height: 550px;
     border-radius: 10px;
 }
 
 .proj1 .img-proj, .proj2 .img-proj, .proj3 .img-proj, .proj4 .img-proj{ /* CONFIGURAÇÃO DAS IMAGENS DOS PROJETOS */
 
-    max-width: 280px;
+    width: 280px;
     border-radius: 8px 8px 0 0;
 }
 
