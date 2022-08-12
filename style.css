@@ -23,6 +23,7 @@ body{
 .paralax{ /* IMAGEM ANIMADA DO MENU */
     background-image: url(imagens/fundo\ header.png);
     background-size: cover;
+    background-position: right left;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 65rem;

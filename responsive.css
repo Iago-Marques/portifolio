@@ -5,6 +5,11 @@
 }
 
 @media (max-width:800px) {
+
+    .paralax{
+        background-position: right left;
+    }
+
     .cor-animada{
         background-color: #170440;
         background-image: none;
