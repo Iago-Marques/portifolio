@@ -20,12 +20,18 @@
         display: none;
     }
 
-    .header-menu h4, .header-menu img{
+    .header-menu h4{
+        display: none;
+    }
+
+    .hr-menu{
+
         display: none;
     }
     
     .nav-button{
         display: block;
+        position: fixed;
     }
 
     .overlay{
@@ -68,7 +74,7 @@
     .overlay .closebtn{
         position: absolute;
         top: 25px;
-        right:45px;
+        right: 45px;
         font-size: 60px;
     }
 
@@ -89,7 +95,7 @@
     }
 
     .sobre-mim{
-        padding-top: 25px;
+        padding-top: 5rem;
     }
 
     .sobre-mim h1, .habilidades h1, .projetos h1{

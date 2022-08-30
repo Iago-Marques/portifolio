@@ -15,24 +15,20 @@
     <main>
 
         <section class="paralax"> <!-- Sessão img animada do menu-->*/
-            <header class="header"> <!--Sessão de MENU-->
+            <header class="header" id="inicio"> <!--Sessão de MENU-->
 
                 <section class="header-menu">
-                    <div class="img-text">
-                        
-                        <a href="index.html"><img src="imagens/92429909_2003437589787974_2567946231720443904_n.jpg" alt="logotipo"></a>
 
-                        <h4>Portifólio</h4>
-                    </div>
-
+                    <h4>Portifólio</h4>
+                    
                     <div id="myNav" class="overlay"> <!--Overlay menu mobile-->
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
                         <div class="overlay-content">
-                            <a href="">Inicio</a>
-                            <a href="">Sobre</a>
-                            <a href="">Projetos</a>
-                            <a href="">Contatos</a>
+                            <a href="#inicio">Inicio</a>
+                            <a href="#sobre-mim">Sobre</a>
+                            <a href="#projetos">Projetos</a>
+                            <a href="#contatos">Contatos</a>
                         </div>
                     </div> <!--FIM menu mobile-->
 
@@ -42,10 +38,10 @@
 
                     <nav class="menu">
                         <ul class="lista-menu">
-                            <li><a href="index.html">Início</a></li>
-                            <li><a href="">Sobre</a></li>
-                            <li><a href="#">Projetos</a></li>
-                            <li><a href="#">Contato</a></li>
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#sobre-mim">Sobre</a></li>
+                            <li><a href="#projetos">Projetos</a></li>
+                            <li><a href="#contatos">Contato</a></li>
                         </ul>
                     </nav>
                     
@@ -65,7 +61,7 @@
 
         <div class="cor-animada">
             
-            <section class="sobre-mim"> <!--Sessão SOBRE-->
+            <section class="sobre-mim" id="sobre-mim"> <!--Sessão SOBRE-->
                 <div class="sobre-text">
                     <h1><span class="span-sobremim">S</span>obre Mim</h1>
                     <hr>
@@ -112,7 +108,7 @@
             </section><!--Fim da sessão HABILIDADES-->
         </div>
 
-        <section class="projetos"> <!--Sessão PROJETOS-->
+        <section class="projetos" id="projetos"> <!--Sessão PROJETOS-->
             <h1><span class="span-projetos">P</span>rojetos</h1>
             
             <div class="box-projetos"> <!--Caixas de PROJETOS-->
@@ -190,7 +186,7 @@
             </div> <!--Fim das caixas de PROJETOS-->
         </section> <!--Fim da sessão de PROJETOS-->
 
-        <section class="contatos"> <!--CAIXA DE CONTATOS-->
+        <section class="contatos" id="contatos"> <!--CAIXA DE CONTATOS-->
 
             <img src="imagens/Online wishes-amico.png" alt="">
 

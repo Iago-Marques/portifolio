@@ -5,12 +5,18 @@
     padding: 0;
     box-sizing: border-box;
     outline: 0;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
     height: 100vw;
     font-family: 'K2D', sans-serif;
     font-weight: 300;
+    min-height: 100vh;
     
     
 }
@@ -32,33 +38,24 @@ body{
 
 .header-menu{ /* MENU */
     display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 25px;
-}
-
-.img-text{ /*  ICONE E TEXTO DO MENU */
-    display: flex;
-    gap: 15px;
     align-items: center;
+    justify-content: space-between;
+    padding: 35px;
 }
 
-.img-text img{ /* ICONE DO MENU */
-    width: 44px;
-    border-radius: 25px;
-    box-shadow: 1px solid ;
-}
-
-.img-text h4{ /* ICONE E TEXTO DO MENU */
+.header-menu h4{ /* TEXTO DO MENU ESQUERDO */
     color: white;
     font-weight: 300;
 }
 
 .menu{ /* BOX MENU */
     font-weight: 300;
+    position: fixed;
+    right: 25px;
+    
 }
 
-.lista-menu{ /* TEXTO DO MENU */
+.lista-menu{ /* TEXTO DO MENU DIREITO */
     display: flex;
     justify-items: center;
     align-items: center;
@@ -70,7 +67,6 @@ li{
 }
 
 .lista-menu a{
-    text-decoration: none;
     color: white;
     align-items: center;
 }
@@ -82,7 +78,7 @@ li{
     border:0;
     border-radius: 4px;
     padding: 8px;
-    background-color: #170440;
+    background-color: #330596;
     margin: 8px;
     cursor: pointer;
     display: none;
@@ -180,6 +176,7 @@ li{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 7rem;
 }
 
 .sobre-text{ /* TEXTO  SOBRE MIM */
@@ -234,6 +231,7 @@ li{
 
 .habilidades{ 
     color:white;
+    padding-bottom: 7rem;
 
 }
 
@@ -284,7 +282,7 @@ li{
 
 .projetos{ /* CAIXAS DE PROJETOS */
     background-color: #09090A;
-    padding-bottom: 70px;
+    padding: 7rem 0;
 }
 
 .box-projetos{
